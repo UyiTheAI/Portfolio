@@ -8,21 +8,17 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/Portfolio/", 
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
     },
     dedupe: ["react", "react-dom"],
   },
+
   build: {
     outDir: "dist",
     emptyOutDir: true,
-  },
-  server: {
-    port: 5173,
-    host: "0.0.0.0",
-    proxy: {
-      "/api": "http://localhost:3001",
-    },
   },
 });
