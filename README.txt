@@ -2,6 +2,8 @@
   Omoruyi Oredia – Portfolio Website
   React (Frontend) + Node.js / Express (Backend)
 ============================================================
+Link: https://uyitheai.github.io/Portfolio/
+============================================================
 
 QUICK START (3 steps):
 -----------------------
